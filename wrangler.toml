@@ -4,7 +4,7 @@ compatibility_date = "2023-03-01"
 
 workers_dev = false
 routes = [
-    { pattern = "dir.mothynet.party*", zone_name = "mothynet.party" }
+    { pattern = "dir.mothynet.party", zone_name = "mothynet.party" }
 ]
 
 # Bind an R2 Bucket. Use R2 to store arbitrarily large blobs of data, such as files.
