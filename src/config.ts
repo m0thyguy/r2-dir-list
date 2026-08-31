@@ -2,7 +2,7 @@ import { Env, SiteConfig } from './types';
 
 export function getSiteConfig(env: Env, domain: string): SiteConfig | undefined {
     const configs: {[domain: string]: SiteConfig} = {
-        'bucketdomain.example.com': {
+        'dir.mothynet.party': {
             name: "Name of your website",
             bucket: env.BUCKET_bucketname,
             desp: {
